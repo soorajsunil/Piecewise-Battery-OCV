@@ -6,7 +6,6 @@ Piecewise OCV-SOC Curve Approximation of Lithium-ion Batteries: A Dynamic Progra
 ### LFP cell
 ![LFP](LFP.png)
 
-### About the implementation:
+### Bibtex:
 ```
-Bibtex:
 COMING SOON! 
