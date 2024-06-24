@@ -8,4 +8,4 @@ Piecewise OCV-SOC Curve Approximation of Lithium-ion Batteries: A Dynamic Progra
 
 ### Bibtex:
 ```
-COMING SOON! 
+Under review. 
