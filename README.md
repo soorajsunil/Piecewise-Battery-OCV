@@ -1,4 +1,4 @@
-# Piecewise-OCV-SOC-Curve
+# Piecewise OCV-SOC Curve
 This demo loads C/32 low-rate OCV-SOC data collected from two commercially available Lithium-ion cells. It implements a dynamic programming approach 
 to reduce (or nonuniformly downsample) the $N$-dimensional OCV-SOC data to $M$-dimensional OCV-SOC breakpoints, where $M < N$. 
 
