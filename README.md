@@ -4,9 +4,9 @@ to reduce (or nonuniformly downsample) the $N$-dimensional (pseudo) OCV-SOC data
 
 In the figures below, blue circles represent the OCV-SOC data points, and orange asterisks indicate the OCV-SOC breakpoints computed using dynamic programming. The dotted lines show the piecewise linear segments obtained through interpolating between the breakpoints.
 
-### NMC cell (Molicel INR-21700-P42A)
+### Molicel INR-21700-P42A
 ![NMC](NMC.png)
-### LFP cell  (Lithium Werks APR-18650-M1B)
+### Lithium Werks APR-18650-M1B
 ![LFP](LFP.png)
 
 ### Bibtex:
