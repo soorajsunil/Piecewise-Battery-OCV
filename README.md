@@ -10,10 +10,10 @@ In the figures below, blue circles represent the OCV-SOC data points, and orange
 
 ### Bibtex:
 ```
-@article{sunil2024piecewise,
+@article{sunil2025piecewise,
   title={Piecewise Linear Approximation of Battery Open-Circuit Voltage Characteristics Using Dynamic Programming},
   author={Sunil, Sooraj and Pattipati, Krishna R and Balasingam, Balakumar},
-  journal={Authorea Preprints},
-  year={2024},
-  publisher={Authorea}
+  journal={IEEE Transactions on Instrumentation and Measurement},
+  year={2025},
+  publisher={IEEE}
 }
