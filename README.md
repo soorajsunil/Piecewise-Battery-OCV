@@ -21,6 +21,7 @@ The demo showcases optimized SOC-OCV LUT breakpoints alongside the corresponding
 
 
 ### BibTeX
+If you find this repo useful in your research, please cite:
 ```bibtex
 @article{sunil2025piecewise,
   title={Piecewise Linear Approximation of Battery Open-Circuit Voltage Characteristics Using Dynamic Programming},
