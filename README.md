@@ -8,8 +8,7 @@ This demo includes pseudo-OCV data collected from various commercial cylindrical
 | [Lithium Werks APR-18650-M1B](https://lithiumwerksbatteries.com/lithiumwerks-apr18650m1-b-3-3-volt-1-2-ah-lithium-iron-phosphate-lifepo4-battery/) | C/32 charge-discharge cycling at temperature. |  
 | [Samsung INR-21700-40T](https://www.dnkpower.com/wp-content/uploads/2019/02/SAMSUNG-INR21700-40T-Datasheet.pdf) | C/20 discharge-charge cycling at room temperature.|
 
-
-The demo showcases optimized SOC-OCV LUT breakpoints alongside the corresponding pseudo-OCV curves.
+The figures below plot the optimized SOC-OCV LUT breakpoints alongside the corresponding pseudo-OCV curves.
 
 ### Molicel INR-21700-P42A
 <p align="center">
