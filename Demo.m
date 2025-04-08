@@ -4,7 +4,7 @@ set(groot,'defaultAxesTickLabelInterpreter','latex');
 set(groot,'defaultLegendInterpreter','latex');
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-file_name = 'Molicel-INR21700P42A';
+file_name = 'Samsung-INR2170040T';
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 data    = load(strcat('Data/',file_name,'.mat')); 
 [xm,ym] = dynamicProg(data.xn,data.yn,10); 
