@@ -1,15 +1,28 @@
-# Piecewise Linear Approximation of Battery Open-Circuit Voltage Characteristics Using Dynamic Programming
-This demo loads C/32 pseudo-OCV data collected from two commercial Lithium-ion cells (Molicel INR-21700-P42A and Lithium Werks APR-18650-M1B). It implements a dynamic programming approach to reduce (or nonuniformly downsample) the $N$-dimensional (pseudo) OCV-SOC data to $M$-dimensional OCV-SOC breakpoints, where $M < N$. 
+# Battery SOC-OCV Lookup Table Optimization
 
-In the figures below, blue circles represent the OCV-SOC data points, and orange asterisks indicate the OCV-SOC breakpoints computed using dynamic programming. The dotted lines show the piecewise linear segments obtained through interpolating between the breakpoints.
+This demo includes pseudo-OCV data collected from various commercial cylindrical Lithium-ion cells. A dynamic programming optimization approach is implemented to determine the optimal number and placement of SOC-OCV lookup table (LUT) breakpoints. The following cells are included:
+
+
+| Cell Model                       | Test Condition                               | 
+|----------------------------------|----------------------------------------------|
+| [Molicel INR-21700-P42A](#)           | C/32 charge-discharge cycling at temperature | 
+| [Lithium Werks APR-18650-M1B](https://www.18650batterystore.com/en-ca/products/lithiumwerks-apr18650m1b?srsltid=AfmBOoqzHbjzR2y6nVUGR9qdnYlnNPDdqFGz9sGKS0RBc2WksaVUiqQ6)      | C/32 charge-discharge cycling at temperature | 
+
+The demo showcases optimized SOC-OCV LUT breakpoints alongside the corresponding pseudo-OCV curves.
 
 ### Molicel INR-21700-P42A
-![NCA](NMC.png)
-### Lithium Werks APR-18650-M1B
-![LFP](LFP.png)
+<p align="center">
+  <img src="https://github.com/soorajsunil/Piecewise-Battery-OCV/blob/main/Figures/Molicel-INR21700P42A.png?raw=true" width="600" height="400"/>
+</p>
 
-### Bibtex:
-```
+### Lithium Werks APR-18650-M1B
+<p align="center">
+  <img src="https://github.com/soorajsunil/Piecewise-Battery-OCV/blob/main/Figures/LithiumWerks-APR18650M1B.png?raw=true" width="600" height="400"/>
+</p>
+
+
+### BibTeX
+```bibtex
 @article{sunil2025piecewise,
   title={Piecewise Linear Approximation of Battery Open-Circuit Voltage Characteristics Using Dynamic Programming},
   author={Sunil, Sooraj and Pattipati, Krishna R and Balasingam, Balakumar},
