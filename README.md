@@ -4,9 +4,10 @@ This demo includes pseudo-OCV data collected from various commercial cylindrical
 
 | Cell Model                                                                 | Test Condition                               | 
 |----------------------------------------------------------------------------|----------------------------------------------|
-| [Molicel INR-21700P42A](https://www.molicel.com/wp-content/uploads/INR21700P42A-V4-80092.pdf) | C/32 charge-discharge cycling at room temperature. | 
-| [Lithium Werks APR-18650M1B](https://lithiumwerksbatteries.com/lithiumwerks-apr18650m1-b-3-3-volt-1-2-ah-lithium-iron-phosphate-lifepo4-battery/) | C/32 charge-discharge cycling at temperature. |  
-| [Samsung INR-2170040T](https://www.dnkpower.com/wp-content/uploads/2019/02/SAMSUNG-INR21700-40T-Datasheet.pdf) | C/20 discharge-charge cycling at room temperature.|
+| [Molicel INR-21700P42A](https://www.molicel.com/wp-content/uploads/INR21700P42A-V4-80092.pdf) | C/32 charge-discharge at room temperature. | 
+| [Lithium Werks APR-18650M1B](https://lithiumwerksbatteries.com/lithiumwerks-apr18650m1-b-3-3-volt-1-2-ah-lithium-iron-phosphate-lifepo4-battery/) | C/32 charge-discharge at temperature. |  
+| [Samsung INR-2170040T](https://www.dnkpower.com/wp-content/uploads/2019/02/SAMSUNG-INR21700-40T-Datasheet.pdf) | C/20 discharge-charge at room temperature.|
+| [Molicel INR-1800P28A](https://www.molicel.com/wp-content/uploads/INR18650P28A-V1-80093.pdf)|C/20 discharge-charge at room temperature.|
 
 The figures below plot the optimized SOC-OCV LUT breakpoints alongside the corresponding pseudo-OCV curves.
 
