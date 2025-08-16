@@ -1,5 +1,9 @@
 function [xm,ym] = dynamicProg(xn,yn,M)
 
+% ensure inputs are column vectors
+xn = xn(:);
+yn = yn(:); 
+
 N    = length(xn); % number of samples
 Dmat = nan(N,M);   % dynamic prog. matrix
 Bmat = nan(N,M);   % backtrace matrix
