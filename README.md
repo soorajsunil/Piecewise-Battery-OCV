@@ -85,6 +85,33 @@ The figures below plot the optimized SOC-OCV LUT breakpoints alongside the corre
 </table>
 
 
+<!--  Molicel-INR18650P28A -->
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/soorajsunil/Piecewise-Battery-OCV/blob/main/Figures/Molicel-INR18650P28A.png?raw=true" width="500" height="300"/>
+    </td>
+    <td>
+      <table>
+        <tr><th>SOC</th><th>OCV</th></tr>
+        <tr><td>0.0000</td><td>2.7027</td></tr>
+        <tr><td>0.0201</td><td>3.0068</td></tr>
+        <tr><td>0.0452</td><td>3.1736</td></tr>
+        <tr><td>0.0905</td><td>3.3275</td></tr>
+        <tr><td>0.1457</td><td>3.4287</td></tr>
+        <tr><td>0.2814</td><td>3.5700</td></tr>
+        <tr><td>0.4573</td><td>3.6972</td></tr>
+        <tr><td>0.8442</td><td>4.0595</td></tr>
+        <tr><td>0.9548</td><td>4.1108</td></tr>
+        <tr><td>1.0000</td><td>4.1881</td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+
+
+
 ### BibTeX
 If you find this repo useful in your research, please cite:
 ```bibtex
