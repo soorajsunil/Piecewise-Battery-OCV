@@ -1,7 +1,7 @@
 clear, clc, close all; 
 
 % Load
-cell_name = 'Molicel-INR18650P28A';
+cell_name = 'LG-INR21700M50T';
 data      = load(strcat('Data/',cell_name,'.mat')); 
 [xm,ym]   = dynamicProg(data.xn,data.yn,10); 
 
